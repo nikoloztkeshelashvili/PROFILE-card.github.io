@@ -1,0 +1,83 @@
+*{padding: 0; margin: 0;}
+body{
+    overflow: hidden;
+    background-color: #19A1AE;
+    position: relative;
+}
+.top{
+    margin-top: -500px;
+    margin-left: -300px;
+}
+.bottom{
+    margin-right: -500px;
+    margin-bottom: -800px;
+}
+.container{
+    width: 350px;
+    height: 374px;
+    background-color: white;
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 15px;
+    background-image: url(./bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container img{
+    border-radius: 50%;
+    border: solid 5px white;
+    margin-top: 55px;
+}
+h1{
+display: inline;
+font-size: 18px;
+color: #2E3349;
+margin-left: -17px;
+}
+h6{
+    display: inline;
+    font-size: 18px;
+    color: #6B7082;
+    margin-left: 8.5px;
+}
+.name-age{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.london{
+    font-size: 14px;
+    color: #6B7082;
+    margin-top: 19px;
+}
+.line{
+    height: 1px;
+    background-color: #E8E9EC;
+    width: 100%;
+    margin-top: 20px;
+}
+.follower-div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.content-div h2{
+    color: #2E3349;
+    font-size: 18px;
+}
+.content-div p{
+    color: #6B7082;
+    font-size: 10px;
+}
+.content-div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
